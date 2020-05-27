@@ -40,5 +40,6 @@ public class HomeActivity extends AppCompatActivity {
 
     private void initialization() {
         logoutBtn =findViewById(R.id.logoutBtnId);
+
     }
 }
