@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
     private void getSharedPrefValue() {
         userEmail = sharedPreferences.getString("userEmail", null);
         userPassword = sharedPreferences.getString("userPassword", null);
-
-
     }
 
     private void onClick() {

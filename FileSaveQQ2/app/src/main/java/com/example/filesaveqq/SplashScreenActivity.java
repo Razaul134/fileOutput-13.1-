@@ -42,8 +42,6 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     private void getSharedPrefValue() {
         userEmail = sharedPreferences.getString("userEmail", null);
-
-        //Toast.makeText(this, "" + userEmail, Toast.LENGTH_SHORT).show();
     }
 
     private void checkUserLoggedIn() {
