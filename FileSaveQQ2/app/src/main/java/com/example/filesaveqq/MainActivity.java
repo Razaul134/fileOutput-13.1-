@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     private String email, password,userEmail,userPassword;
     private SharedPreferences sharedPreferences;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

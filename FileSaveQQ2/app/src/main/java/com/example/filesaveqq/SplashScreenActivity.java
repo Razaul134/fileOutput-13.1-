@@ -44,7 +44,8 @@ public class SplashScreenActivity extends AppCompatActivity {
         userEmail = sharedPreferences.getString("userEmail", null);
     }
 
-    private void checkUserLoggedIn() {
+    private void checkUserLoggedIn()
+    {
         if (userEmail != null) {
             startActivity(new Intent(this, MainActivity.class));
             finish();
