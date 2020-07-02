@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LuRUActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入学生信息"
+        android:textColor="#DADADA"
+        android:textStyle="bold"
+        android:textSize="25sp"></TextView>
+
+    <EditText
+        android:id="@+id/xingming_ETTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入学生的姓名："
+        android:textSize="30sp"></EditText>
+
+    <EditText
+        android:id="@+id/nianLing_ETTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入学生的年龄："
+        android:textSize="30sp"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请选择性别"
+                android:textSize="28sp"></TextView>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"
+                android:textStyle="bold"
+                android:textSize="28sp"></RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女"
+                android:textStyle="bold"
+                android:textSize="28sp"></RadioButton>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/xiangguan_ETTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入学生的箱贯："
+        android:textSize="30sp"></EditText>
+
+    <EditText
+
+    android:id="@+id/youXing_ETTV"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="请输入学生的邮箱："
+    android:textSize="30sp"></EditText>
+    
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:paddingTop="15dp">
+        
+        <Button
+            android:id="@+id/tiJiao_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_weight="1">
+        </Button>
+        <Button
+            android:id="@+id/tuiChu_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="退出"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_weight="1">
+        </Button>
+
+    </RadioGroup>
+
+
+</LinearLayout>

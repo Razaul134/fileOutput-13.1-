@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/shuRu_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录入学生信息"
+        android:textSize="30sp">
+    </Button>
+
+    <Button
+        android:id="@+id/chaXun_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询学生信息"
+        android:textSize="30sp">
+    </Button>
+
+    <Button
+        android:id="@+id/xiuGai_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改学生信息"
+        android:textSize="30sp">
+    </Button>
+
+    <Button
+        android:id="@+id/shaNChu_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除学生信息"
+        android:textSize="30sp">
+    </Button>
+
+</RadioGroup>
+
+</LinearLayout>
